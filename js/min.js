@@ -1,0 +1,1 @@
+for(var arr=[1,5,2,7,3,5,9,3,5],brr=[],i=0;i<arr.length;i++)-1==brr.indexOf(arr[i])&&brr.push(arr[i]);console.log(brr);for(var crr=[1,5,2,7,3,5,9,3,5],i=0;i<crr.length;i++)for(var j=1;j<i;j++)crr[i]==crr[j]&&(crr.splice(i,1),i--);console.log(crr);
